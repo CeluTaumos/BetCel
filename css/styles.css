@@ -1,0 +1,88 @@
+/*TIPOGRAFIAS*/
+/*TITULOS -POPPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+/*PARRAFOS -OPEN SANS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,800&display=swap');
+/*colores
+blanco #F2F2F2
+celeste 1 claro #8FBDD9
+celeste 2 #417FA6
+celeste 3 #2B96D9
+celeste opaco #417FA6
+negro #0D0D0D
+logo #2C85C7
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #2C85C7;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    background-image: linear-gradient(#417FA6, #8FBDD9, #2C85C7);
+
+}
+
+
+/*INTRO*/
+.intro {
+    background-image: url("./../assets/imagenes/fondos/cajasfondoedit.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.card {
+    background-color: #8FBDD9;
+    border: none;
+    color: #0D0D0D;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+.btn-primary {
+    background-color: #2C85C7;
+    border: none;
+}
+
+/*CELULARES*/
+
+.celularesinicio {
+    height: 90vh;
+}
+
+.celularesinicio img {
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+
+}
+
+.celularesinicio__texto {
+    position: absolute;
+}
+
+
