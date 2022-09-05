@@ -66,22 +66,60 @@ main {
     background-color: #2C85C7;
     border: none;
 }
-
-/*CELULARES*/
-
-.celularesinicio {
+.celulares__intro {
+    background-image: url("./../assets/imagenes/fondos/fondoetiquetass.jpg");
+    background-position: center center;
+    background-size: cover;
     height: 90vh;
 }
 
-.celularesinicio img {
+/*CELULARES*/
+
+.cajita{
+    padding: 1%;
+}
+
+/*tabla*/
+
+.tabla {
     width: 100%;
-    position: relative;
-    opacity: 0.5;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: solid 3px #070708;
+    border-radius: 10px;
+    overflow-x: auto;
+    border-spacing: 0;
+    align-items: center;
+    grid-area: caja3;
+}
+
+th {
+    border-bottom: solid 2px #070708;
+    color: #ffffff;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+td {
+    background-color: #070708;
+    color: #ffffff;
+    padding: 1px;
+    font-weight: 800;
 
 }
 
-.celularesinicio__texto {
-    position: absolute;
+tr:hover td {
+    background-color: #809fff;
+    color: #000000;
+
 }
+
+
+
+
+
+
+
 
 
