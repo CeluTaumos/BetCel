@@ -115,6 +115,37 @@ tr:hover td {
 
 }
 
+/*PIE*/
+
+.pie{
+    background-color:#ffffff;  
+}
+.pie p{
+    color: #417FA6;
+}
+.pie  img{
+    width: 60%;
+    border-radius: 200px;
+}
+.pie__logos img{
+    width: 20%;
+}
+.pie__end {
+    background-color: #135588;
+    color: #bdcdff;
+    font-size: 15px;
+    justify-content: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:768px) {
+    .pie{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+
 
 
 
