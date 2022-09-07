@@ -1,144 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas frecuentes BetCel</title>
-    <link rel="icon" href="/assets/imagenes/logos/logo5.jpg" type="image/png" sizes="64x64"/>
-    <link rel="stylesheet" href="./../css/styles.css">
+    <!--link bookstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="icon" href="/assets/imagenes/logos/logo5.jpg" type="image/x.icon" sizes="64x64" />
+    <link rel="stylesheet" href="./../css/styles.css" />
 
 </head>
 
 <body>
-   <!-- encabezado -->
+    <!-- encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="./../index.html"><img src="../assets/imagenes/logos/logo2.jpg"
+                        alt="logo de BetCel" width="250" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " aria-current="page" href="./../index.html">Inicio</a>
+                        <a class="nav-link" href="./celulares.html">Celulares</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link  active" href="./pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                        <a class="nav-link" href="./pages/clientes_satisfechos.html">Clientes Satisfechos</a>
 
-   <header>
-    <section class="encabezado">
-        <div class="encabezado__img" >
-            <a href="./../index.html"><img  src="./../assets/imagenes/logos/logo2.jpg" alt="logo de BetCel" width="250" height="100"/></a>
-        </div>
-            <!-- lista desordenada para el menú de navegación en el sitio -->
-        <div>
-            <nav class="encabezado__menu">
-            <ul >
-              <li ><a href="./../index.html">Inicio</a></li>
-              <li ><a href="./../pages/celulares.html">Celulares</a></li>
-              <li ><a href="./../pages/preguntas_frecuentes.html">Preguntas Frecuentes</a> </li>
-              <li ><a href="./../pages/contacto.html">Contacto</a></li>
-              <li ><a href="./../pages/clientes_satisfechos.html">Clientes Satisfechos</a></li>
-            </ul>
-        </div>
-         </nav>
-    </section>
-</header>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- contenido principal -->
-    <main class="pf">
+    <main>
         <!-- título -->
-        <section class="pf_title">
-        <h1>Preguntas Frecuentes</h1>
+        <section class="intro d-flex justify-content-center align-items-center ">
+            <h1 class="  fs-1  p-3 rounded-end  ">Preguntas¿（⊙ｏ⊙）?Frecuentes</h1>
         </section>
 
-     <!-- medios de pago -->
-     <section class="pf_tarjeta--1">
-        <h1>Acerca de los medios de pago</h1>
-        <h2>Usted puede abonar mediante:</h2>
-        <ol>
-            <div class="pf_tarjeta1-listaone">
-            <li>MercadoPago</li>
-            <li>Transferencia Bancaria</li>
-            <li>Efectivo</li>
-            <li>PagoFácil o RapiPago</li>
-            <li>Tarjetas de crédito</li>
+        <!--PREGUNTAS FRECUENTES -->
+
+        <section class="container">
+            <div class="row mt-3 p-3">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Usted puede abonar mediante:
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Mercado Pago</li>
+                            <li class="list-group-item">Transferencia Bancaria</li>
+                            <li class="list-group-item">Efectivo</li>
+                            <li class="list-group-item">PagoFácil o RapiPago</li>
+
+                        </ul>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Tarjetas de crédito ←_←
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li class="logo__lista  list-group-item">Visa</li> <img
+                                            src="./../assets/imagenes/logos/visa_logo.jpg" alt="visa logo" />
+                                        <li class="logo__lista list-group-item">MasterCard</li> <img
+                                            src="./../assets/imagenes/logos/mastercard_logo.jpg"
+                                            alt="mastercard logo" />
+                                        <li class="logo__lista list-group-item">Diners Club Internacional</li><img
+                                            src="./../assets/imagenes/logos/Diners-Club-International-logo.jpg"
+                                            alt="DinersClub logo" />
+                                        <li class="logo__lista list-group-item">American Express</li><img
+                                            src="./../assets/imagenes/logos/ae_logo.png" alt="AmericanExpress logo" />
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Puedo abonar en cuotas?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">SI!（＾∀＾●）ﾉｼ</h6>
+                            <p class="card-text">Se puede abonar una compra hasta en 12 cuotas. Puede consultar los
+                                incrementos del valor respecto a las cuotas en la tabla de la sección celulares. </p>
+                            <small>recuerde que si abona en cuotas el precio total sufrirá un incremento <strong>chequeé
+                                    la tabla de valores</strong></small></p>
+                            <a href="./celulares.html" class="card-link">ir a Celulares</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Trabajan con Apple?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">No,sólo trabajamos con las siguientes marcas:</h6>
+                            <p class="card-text">
+                                <ul >
+                                <li>Samsung</li>
+                                <li>Xiaomi(consultar stock)</li>
+                                <li>Motorola</li>
+                              </ul></p>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="pf_tarjeta1-listatwo">
-            <ul>
-                <li>Visa</li> <img src="/assets/imagenes/logos/visa_logo.jpg" alt="visa logo" />
-                <li>MasterCard</li> <img src="/assets/imagenes/logos/mastercard_logo.jpg" alt="mastercard logo" />
-                <li>Diners Club Internacional</li><img src="/assets/imagenes/logos/Diners-Club-International-logo.jpg" alt="DinersClub logo" />
-                <li>American Express</li><img src="/assets/imagenes/logos/amex_logo.png" alt="AmericanExpress logo" />
-            </ul>
-            </div>
-        </ol>
-       
-     </section>
-     <!-- cuotas -->
-     <section class="pf_tarjeta--2">
-        <h1>¿Aceptan cuotas?</h1>
-        <p>Si. Se puede abonar una compra hasta en 12 cuotas. Puede consultar los incrementos del valor respecto a las cuotas en la tabla de la sección <a href="celulares.html">celulares</a>. </p>
-        <small>recuerde que si abona en cuotas el precio total sufrirá un incremento <strong>chequeé la tabla de valores</strong></small>
-    </section>
-
-    <!-- trabajan con apple? -->
-    <section class="pf_tarjeta--3">
-        <h1>¿Trabajan con Apple?</h1>
-        <h2>No,sólo trabajamos con las siguientes marcas:</h2>
-        <div>
-          <ul class="pf_tarjeta3-lista">
-            <li>Samsung</li>
-            <li>Xiaomi(consultar stock)</li>
-            <li>Motorola</li>
-          </ul>
-        </div>
-    </section>
-
+        </section>
 
     </main>
 
-      <!-- pie de página -->
-      <footer>
-        <section class="pie">
+    <!-- pie de página -->
+    <footer>
+        <section class="container-fluid">
+            <div class="row p-5 pie fw-bold text-center">
 
-            <div class="pie__start">
-                <div class="pie__box">
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <figure>
-                        <img src="/assets/imagenes/logos/logo5.jpg" alt="logo de BetCel" />
+                        <img src="./../assets/imagenes/logos/logo1.jpg" alt="logo de BetCel" />
                     </figure>
-                    <div class="pie__eslogan">
-                        <h1>BetCeL:</h1>
-                        <h3> Venta de celulares y más</h3>
-                    </div>
                 </div>
 
-                <div class="pie__box">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p>BetCel tiene tu nuevo Cel</p>
+                </div>
 
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <p class="pie__mensajito">
                         (⊙_⊙)¿Tenés dudas?...Chequeá por vos mismo que somos de confianza en
-                        <a href="/pages/clientes_satisfechos.html">clientes satisfechos</a>
+                        <a href="./pages/clientes_satisfechos.html">clientes satisfechos</a>
                     </p>
-
                 </div>
 
-                <div class="pie__box--column">
-                    <p class="pie__mensajito--big">¡Conectate con BetCel!</p>
-                    <div class="pie__logos">
-                        <ul>
-                            <a class="pie__itemslista" href="https://www.facebook.com/BetCel09"><img
-                                    class="pie__itemslita" src="/assets/imagenes/logos/facebaw.jpg"
-                                    alt="facebook logo" /></a>
-                            <a class="pie__itemslista"
-                                href="https://api.whatsapp.com/send?phone=%2B541127626796&fbclid=IwAR0_IYwYx-KyMB2aNz1_ciZfGf3UTwWZILQz91fF34ruE46DLK_9KFTja-8"><img
-                                    img class="pie__itemslita" src="/assets/imagenes/logos/wassapbaw.jpg"
-                                    alt="wassap logo" /></a>
-                            <a class="pie__itemslista" href="https://www.instagram.com/betotaurel/"><img img
-                                    class="pie__itemslita" src="/assets/imagenes/logos/instabaw.jpg"
-                                    alt="insta logo" /></a>
-                        </ul>
-                    </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p>¡Conectate con BetCel!</p>
+                    <ul class="pie__logos">
+                        <a class="pie__logos" href="https://www.facebook.com/BetCel09"><img class="pie__itemslita"
+                                src="./../assets/imagenes/logos/facebaw.jpg" alt="facebook logo" /></a>
+                        <a class="pie__logos"
+                            href="https://api.whatsapp.com/send?phone=%2B541127626796&fbclid=IwAR0_IYwYx-KyMB2aNz1_ciZfGf3UTwWZILQz91fF34ruE46DLK_9KFTja-8"><img
+                                img class="pie__itemslita" src="./../assets/imagenes/logos/wassapbaw.jpg"
+                                alt="wassap logo" /></a>
+                        <a class="pie__logos" href="https://www.instagram.com/betotaurel/"><img img
+                                class="pie__itemslita" src="./../assets/imagenes/logos/instabaw.jpg"
+                                alt="insta logo" /></a>
+                    </ul>
                 </div>
+
+
+
 
             </div>
 
-            <div class="pie__end">
-                <small>&copy;2022 <b>Celena Moscovich</b>-Todos los Derechos Reservados.</small>
-            </div>
         </section>
-
+        <div class="pie__end d-flex p-0 text-center">
+            <small>&copy;2022 <b>Celena Moscovich</b>-Todos los Derechos Reservados.</small>
+        </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

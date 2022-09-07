@@ -151,6 +151,11 @@ tr:hover td {
 
 }
 
+ ul img  {
+    width: 20%;
+    height: 20%;
+}
+
 /*PIE*/
 
 .pie{
