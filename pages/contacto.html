@@ -1,181 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto BetCel</title>
-    <link rel="icon" href="/assets/imagenes/logos/logo5.jpg" type="image/png" sizes="64x64"/>
-    <link rel="stylesheet" href="./../css/styles.css">
-    
+    <!--link bookstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="icon" href="/assets/imagenes/logos/logo5.jpg" type="image/x.icon" sizes="64x64" />
+    <link rel="stylesheet" href="./../css/styles.css" />
+
 
 </head>
+
 <body>
- 
+
+
+
     <!-- encabezado -->
 
     <header>
-        <section class="encabezado">
-            <div class="encabezado__img" >
-                <a href="./../index.html"><img  src="./../assets/imagenes/logos/logo2.jpg" alt="logo de BetCel" width="250" height="100"/></a>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="./../index.html"><img src="../assets/imagenes/logos/logo2.jpg"
+                        alt="logo de BetCel" width="250" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " aria-current="page" href="./../index.html">Inicio</a>
+                        <a class="nav-link " href="./../pages/celulares.html">Celulares</a>
+                        <a class="nav-link active" href="./../pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./../pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                        <a class="nav-link" href="./../pages/clientes_satisfechos.html">Clientes Satisfechos</a>
+
+
+                    </div>
+                </div>
             </div>
-                <!-- lista desordenada para el menú de navegación en el sitio -->
-            <div>
-                <nav class="encabezado__menu">
-                <ul >
-                  <li ><a href="./../index.html">Inicio</a></li>
-                  <li ><a href="./../pages/celulares.html">Celulares</a></li>
-                  <li ><a href="./../pages/preguntas_frecuentes.html">Preguntas Frecuentes</a> </li>
-                  <li ><a href="./../pages/contacto.html">Contacto</a></li>
-                  <li ><a href="./../pages/clientes_satisfechos.html">Clientes Satisfechos</a></li>
-                </ul>
-            </div>
-             </nav>
-        </section>
+        </nav>
     </header>
     <!-- contenido principal -->
-    <main class="fondo_celus">
+    <main>
 
-     <section class="tarjeta">
-        
-        <!-- Formulario para contacto -->
-        <h1><strong>Contactenos!</strong></h1>
-         
-        <div class="tarjeta__contenido">
-        <form action="send.php" method:"get" enctype="multipart/form-data">
-            <input class="boton_title" type="text" placeholder="Escriba su nombre"/>
-            <fieldset>
-                <legend class="boton_title" >Seleccione su Provincia</legend>
-                <select class="boton_title">
-                    <option>Bs As(Provincia)</option>
-                    <option >Bs As(Capital)</option>
-                    <option>Córdoba</option>
-                    <option>Santiago del estero</option>
-                    <option >La Pampa</option>
-                    <option >Chaco</option>
-                    <option>Misiones</option>
-                    <option >Entre Ríos</option>
-                    <option>Corrientes</option>
-                    <option>Santa Fe</option>
-                    <option>Tierra del Fuego</option>
-                    <option >Mendoza</option>
-                    <option>Río Negro</option>
-                    <option >Santa Cruz</option>
-                    <option >Chubut</option>
-                    <option >San Juan</option>
-                    <option >Neuquén</option>
-                    <option >San Luis</option>
-                    <option >Salta</option>
-                    <option >Neuquén</option>
-                    <option >Jujuy</option>
-                    <option >Tucumán</option>
-                    <option >Formosa</option>
-                    <option>La Rioja</option>
-                    <option >Catamarca</option>
-                </select>
+        <!--titulo de la pág.-->
 
-            </div>
-
-
-            <div class="boton">
-            </fieldset>
-            <input class="boton_title" type="email" placeholder="Escriba su mail"/>
-            <input  class="boton_title"  type="text" placeholder="Escriba su celular"/>
-            <textarea class="boton_title"  cols="30" rows="10" placeholder="Escriba su pregunta"></textarea>
-            </div>
-
-            <div>
-            <!-- Uso de Radio -->
-            <h1>¿Nos seguís ya en alguna de nuestras redes?</h1>
-
-           
-            <input type="radio" name="yanosigueenface" id="Face">
-            <label for="Face">Facebook</label>
-            <input type="radio" name="yanosigue" id="Insta">
-            <label for="Insta">Instagram</label>
-
-            </div>
-
-            <!-- checkbox -->
-            <input type="checkbox" id="verificacion">
-            <label for="verificacion">Ya he comprado antes en BetCeL</label>
-             <div>
-
-            <!-- botones -->
-            <button type="submit">Enviar</button>
-            <button type="reset">Reset</button>
-            </div>
-
-        </form>
-     </section>
-      
-     <section class="tarjeta__contacto">
-        <h1>Encontranos en...</h1>
-        <div >
-        <a   href="https://www.facebook.com/BetCel09"><img src="./../assets/imagenes/logos/facebaw.jpg" alt="facebook logo"  /></a>
-        <a   href="https://api.whatsapp.com/send?phone=%2B541127626796&fbclid=IwAR0_IYwYx-KyMB2aNz1_ciZfGf3UTwWZILQz91fF34ruE46DLK_9KFTja-8"><img src="./../assets/imagenes/logos/wassapbaw.jpg" alt="wassap logo" /></a>
-        <a   href="https://www.instagram.com/betotaurel/"><img src="./../assets/imagenes/logos/instabaw.jpg" alt="insta logo"  /></a>
-        </div>   
-    </section>
-
-    <!-- Quienes somos -->
-    <section class="tarjeta__quienes">
-        <h1>¿Quiénes somos?</h1>
-        <h2>BetCel:venta de celulares y más</h2>
-        <p>BetCel es un emprendimiento que comenzó ya hace unos años en Pontevedra,partido de Merlo. <a href="https://www.facebook.com/Beto.T09">Beto Taurel</a> es él que se encuentra detrás de este negocio que ya no sólo se trata de celulares,sino también de electrodomésticos varios y otros artículos que encontrarás en nuestras redes sociales. 
-        Deseamos que tengas un lugar de confianza y cercano para adquirir lo que estás buscando. </p>
-        
-    </section>
-    </main>
-    <!-- pie de página -->
-    <footer>
-        <section class="pie">
-
-            <div class="pie__start">
-                <div class="pie__box">
-                    <figure>
-                        <img src="/assets/imagenes/logos/logo5.jpg" alt="logo de BetCel" />
-                    </figure>
-                    <div class="pie__eslogan">
-                        <h1>BetCeL:</h1>
-                        <h3> Venta de celulares y más</h3>
-                    </div>
-                </div>
-
-                <div class="pie__box">
-
-                    <p class="pie__mensajito">
-                        (⊙_⊙)¿Tenés dudas?...Chequeá por vos mismo que somos de confianza en
-                        <a href="/pages/clientes_satisfechos.html">clientes satisfechos</a>
-                    </p>
-
-                </div>
-
-                <div class="pie__box--column">
-                    <p class="pie__mensajito--big">¡Conectate con BetCel!</p>
-                    <div class="pie__logos">
-                        <ul>
-                            <a class="pie__itemslista" href="https://www.facebook.com/BetCel09"><img
-                                    class="pie__itemslita" src="/assets/imagenes/logos/facebaw.jpg"
-                                    alt="facebook logo" /></a>
-                            <a class="pie__itemslista"
-                                href="https://api.whatsapp.com/send?phone=%2B541127626796&fbclid=IwAR0_IYwYx-KyMB2aNz1_ciZfGf3UTwWZILQz91fF34ruE46DLK_9KFTja-8"><img
-                                    img class="pie__itemslita" src="/assets/imagenes/logos/wassapbaw.jpg"
-                                    alt="wassap logo" /></a>
-                            <a class="pie__itemslista" href="https://www.instagram.com/betotaurel/"><img img
-                                    class="pie__itemslita" src="/assets/imagenes/logos/instabaw.jpg"
-                                    alt="insta logo" /></a>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="pie__end">
-                <small>&copy;2022 <b>Celena Moscovich</b>-Todos los Derechos Reservados.</small>
-            </div>
+        <section class="celulares__intro d-flex justify-content-center align-items-center ">
+            <h1 class=" fs-1  p-3 rounded-end  ">( ﾉ ﾟｰﾟ)ﾉContacto＼(ﾟｰﾟ＼)</h1>
         </section>
 
+        <section class="container">
+            <div class="row mt-3 p-3">
+
+                <div class="col-md-6 ">
+                    
+                    <form class="row g-3 p-3 ">
+                        <h1>Mandanos tu consulta!</h1>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Acá escribí tu Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Acá escribí tu contraseña</label>
+                            <input type="contraseña" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Acá escribí tu dirección</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="De la Amistad 1477">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Edifico, departamento, o piso </label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Edificio, departamento, o piso">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Provincia</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Selecciona</option>
+                                <option>Bs As(Provincia)</option>
+                                <option>Bs As(Capital)</option>
+                                <option>Córdoba</option>
+                                <option>Santiago del estero</option>
+                                <option>La Pampa</option>
+                                <option>Chaco</option>
+                                <option>Misiones</option>
+                                <option>Entre Ríos</option>
+                                <option>Corrientes</option>
+                                <option>Santa Fe</option>
+                                <option>Tierra del Fuego</option>
+                                <option>Mendoza</option>
+                                <option>Río Negro</option>
+                                <option>Santa Cruz</option>
+                                <option>Chubut</option>
+                                <option>San Juan</option>
+                                <option>Neuquén</option>
+                                <option>San Luis</option>
+                                <option>Salta</option>
+                                <option>Neuquén</option>
+                                <option>Jujuy</option>
+                                <option>Tucumán</option>
+                                <option>Formosa</option>
+                                <option>La Rioja</option>
+                                <option>Catamarca</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Cp</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Ya he comprado en BetCel
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn  btn-dark">Enviar!</button>
+                            <button type="reset" class="btn  btn-dark">Borrar todo</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="https://scontent.faep4-2.fna.fbcdn.net/v/t39.30808-6/299995143_10160026280944243_659645858501435305_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGs9oZ5bPgyeBLlKR_K_OS_Csnv6T0pBnYKye_pPSkGdmR0NsMvdYQ028aO1ihSWPU&_nc_ohc=G4Ttfr9CFpYAX_Hi1wT&_nc_ht=scontent.faep4-2.fna&oh=00_AT9SDNoHPuHwWu-VB69nNO7P3oycbkg5oFPghoNgpPpXaA&oe=631D678B"
+                            class="card-img-top" alt="Celu de BetCel">
+                        <div class="card-body">
+                            <h3 class="card-text">¿Quiénes somos?</h1>
+                            <h4 class="card-text">BetCel:venta de celulares y más</h2>
+                            <p class="card-text">BetCel es un emprendimiento que comenzó ya hace unos años en
+                                Pontevedra,partido de Merlo. <a href="https://www.facebook.com/Beto.T09">Beto Taurel</a>
+                                es él que se encuentra detrás de este negocio que ya no sólo se trata de celulares,sino
+                                también de electrodomésticos varios y otros artículos que encontrarás en nuestras redes
+                                sociales.
+                                Deseamos que tengas un lugar de confianza y cercano para adquirir lo que estás buscando.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- pie de página -->
+
+    <footer>
+        <section class="container-fluid">
+            <div class="row p-5 pie fw-bold text-center">
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <figure>
+                        <img src="./../assets/imagenes/logos/logo1.jpg" alt="logo de BetCel" />
+                    </figure>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p>BetCel tiene tu nuevo Cel</p>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="pie__mensajito">
+                        (⊙_⊙)¿Tenés dudas?...Chequeá por vos mismo que somos de confianza en
+                        <a href="./pages/clientes_satisfechos.html">clientes satisfechos</a>
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p>¡Conectate con BetCel!</p>
+                    <ul class="pie__logos">
+                        <a class="pie__logos" href="https://www.facebook.com/BetCel09"><img class="pie__itemslita"
+                                src="/assets/imagenes/logos/facebaw.jpg" alt="facebook logo" /></a>
+                        <a class="pie__logos"
+                            href="https://api.whatsapp.com/send?phone=%2B541127626796&fbclid=IwAR0_IYwYx-KyMB2aNz1_ciZfGf3UTwWZILQz91fF34ruE46DLK_9KFTja-8"><img
+                                img class="pie__itemslita" src="/assets/imagenes/logos/wassapbaw.jpg"
+                                alt="wassap logo" /></a>
+                        <a class="pie__logos" href="https://www.instagram.com/betotaurel/"><img img
+                                class="pie__itemslita" src="/assets/imagenes/logos/instabaw.jpg" alt="insta logo" /></a>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+        <div class="pie__end d-flex p-0 text-center">
+            <small>&copy;2022 <b>Celena Moscovich</b>-Todos los Derechos Reservados.</small>
+        </div>
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
