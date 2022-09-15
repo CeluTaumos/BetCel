@@ -1,0 +1,23 @@
+{
+  "name": "bet-cel",
+  "version": "1.0.0",
+  "description": "Proyecto de practica",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/styles.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeluTaumos/BetCel.git"
+  },
+  "author": "Celena Moscovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeluTaumos/BetCel/issues"
+  },
+  "homepage": "https://github.com/CeluTaumos/BetCel#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
+

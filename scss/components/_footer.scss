@@ -1,0 +1,36 @@
+/*PIE*/
+
+.pie{
+    margin-top: 2%;
+    background-color:#ffffff;  
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.pie p{
+    color: #417FA6;
+}
+.pie  img{
+    width: 60%;
+    border-radius: 200px;
+}
+.pie__logos img{
+    width: 20%;
+    transition: all 1s ease;
+}
+
+.pie__logos img:hover{
+    width: 30%;
+}
+.pie__end {
+    background-color: #135588;
+    color: #bdcdff;
+    font-size: 15px;
+    justify-content: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:768px) {
+    .pie{
+        display: flex;
+        flex-direction: column;
+    }   
+}

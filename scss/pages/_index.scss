@@ -1,0 +1,21 @@
+/*INTRO*/
+
+.intro {
+    background-image: url("./../../assets/imagenes/fondos/cajasfondoedit.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;  
+   
+}
+
+.intro h1 {
+    background-color: #0D0D0D;
+    color: #8FBDD9;
+    text-align: center;
+    animation:introMov 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+

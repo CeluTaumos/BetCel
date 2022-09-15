@@ -1,0 +1,40 @@
+/*KEYFRAMES*/
+
+@keyframes introMov{
+    10%{
+        width: 60%;
+    }
+    25%{
+        width:65%;
+    }
+
+    30%{
+        width:70%;
+    }
+
+    35%{
+
+        width:75%;
+    }
+    40%{
+
+        width:80%;
+    }
+    45%{
+
+        width:85%;
+    }
+    50%{
+        width: 90%;
+        background-color: #2C85C7;
+    }
+
+    55%{
+
+        width:95%;
+    }
+    100%{
+        width: 75%;
+        background-color: #135588;
+    }
+}
