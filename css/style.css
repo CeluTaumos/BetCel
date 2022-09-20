@@ -30,6 +30,21 @@ html {
 main {
   background-image: linear-gradient(#417FA6, #8FBDD9, #2C85C7); }
 
+.intros {
+  background-image: url("./../assets/imagenes/fondos/fondoetiquetass.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 90vh; }
+  .intros h1 {
+    background-color: #0D0D0D;
+    color: #8FBDD9;
+    text-align: center;
+    animation: introMov 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+
 header {
   background-color: #2C85C7;
   position: sticky;
@@ -169,21 +184,30 @@ header {
     -webkit-transform-origin: 100% 50%;
     transform-origin: 100% 50%; } }
 
+/*declaro mi mapa*/
+.btn {
+  /*bucle*/ }
+  .btn .botn--botn--1 {
+    background-color: #e676b7; }
+  .btn .botn--botn--2 {
+    background-color: #e64da6; }
+  .btn .botn--botn--3 {
+    background-color: #f1299e; }
+
 .celulares__intro {
   background-image: url("./../assets/imagenes/fondos/fondoetiquetass.jpg");
   background-position: center center;
   background-size: cover;
   height: 90vh; }
-
-.celulares__intro h1 {
-  background-color: #0D0D0D;
-  color: #8FBDD9;
-  text-align: center;
-  animation: introMov 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  .celulares__intro h1 {
+    background-color: #0D0D0D;
+    color: #8FBDD9;
+    text-align: center;
+    animation: introMov 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
 
 /*CELULARES*/
 .cajita {
