@@ -64,7 +64,7 @@ header {
   border: none;
   color: #0D0D0D;
   box-shadow: rgba(59, 86, 238, 0.4) 0px 5px, rgba(49, 46, 240, 0.3) 0px 10px, rgba(46, 82, 240, 0.2) 0px 15px, rgba(46, 169, 240, 0.1) 0px 20px, rgba(46, 162, 240, 0.05) 0px 25px;
-  transition: background-color 0.4s linear; }
+  transition: background-color 0.1s linear; }
 
 .card:hover {
   background-color: #809fff; }
@@ -88,7 +88,7 @@ header {
 
 .pie__logos img {
   width: 20%;
-  transition: all 1s ease; }
+  transition: all 0.3s ease; }
 
 .pie__logos img:hover {
   width: 30%; }
@@ -121,6 +121,53 @@ header {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate; }
+
+.card {
+  -webkit-animation: flip-scale-2-ver-left .5s linear 5s both;
+  animation: flip-scale-2-ver-left .5s linear 5s; }
+
+.card-1 {
+  animation-delay: 2s; }
+
+.card-2 {
+  animation-delay: 4s; }
+
+.card-3 {
+  animation-delay: 6s; }
+
+@-webkit-keyframes flip-scale-2-ver-left {
+  0% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+    transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%; }
+  50% {
+    -webkit-transform: translateX(-50%) rotateY(90deg) scale(2);
+    transform: translateX(-50%) rotateY(90deg) scale(2);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%; }
+  100% {
+    -webkit-transform: translateX(-100%) rotateY(180deg) scale(1);
+    transform: translateX(-100%) rotateY(180deg) scale(1);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%; } }
+
+@keyframes flip-scale-2-ver-left {
+  0% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+    transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%; }
+  50% {
+    -webkit-transform: translateX(-50%) rotateY(90deg) scale(2);
+    transform: translateX(-50%) rotateY(90deg) scale(2);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%; }
+  100% {
+    -webkit-transform: translateX(-100%) rotateY(180deg) scale(1);
+    transform: translateX(-100%) rotateY(180deg) scale(1);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%; } }
 
 .celulares__intro {
   background-image: url("./../assets/imagenes/fondos/fondoetiquetass.jpg");
