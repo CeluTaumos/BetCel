@@ -141,13 +141,13 @@ header {
   -webkit-animation: flip-scale-2-ver-left .5s linear 5s both;
   animation: flip-scale-2-ver-left .5s linear 5s; }
 
-.card-1 {
+.tarjeta-1 {
   animation-delay: 2s; }
 
-.card-2 {
+.tarjeta-2 {
   animation-delay: 4s; }
 
-.card-3 {
+.tarjeta-3 {
   animation-delay: 6s; }
 
 @-webkit-keyframes flip-scale-2-ver-left {
@@ -185,14 +185,15 @@ header {
     transform-origin: 100% 50%; } }
 
 /*declaro mi mapa*/
-.btn {
-  /*bucle*/ }
-  .btn .botn--botn--1 {
-    background-color: #e676b7; }
-  .btn .botn--botn--2 {
-    background-color: #e64da6; }
-  .btn .botn--botn--3 {
-    background-color: #f1299e; }
+/*bucle*/
+.boton--boton1 {
+  background-color: #e676b7; }
+
+.boton--boton2 {
+  background-color: #e64da6; }
+
+.boton--boton3 {
+  background-color: #f1299e; }
 
 .celulares__intro {
   background-image: url("./../assets/imagenes/fondos/fondoetiquetass.jpg");
@@ -250,6 +251,10 @@ ul img {
 
 form {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; }
+
+.clientes__intro {
+  background-image: url(./../../assets/imagenes/fondos/cajasfondoedit.jpg);
+  padding-bottom: 2%; }
 
 .pf__intro {
   background-color: #87eeee; }

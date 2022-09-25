@@ -31,7 +31,7 @@
 
 
  @for $item from 1 through 3 {
-    .card-#{$item}{
+    .tarjeta-#{$item}{
         animation-delay: $item*2s;
 
     }
@@ -66,17 +66,17 @@
 }
  
 /*declaro mi mapa*/
-.btn{
+
 $botones:(
-    botn--1: rgb(230, 118, 183),
-    botn--2:  rgb(230, 77, 166),
-    botn--3: rgb(241, 41, 158)
+    boton1: rgb(230, 118, 183),
+    boton2:  rgb(230, 77, 166),
+    boton3: rgb(241, 41, 158)
 );
 /*bucle*/
 
 @each $boton,$color in $botones{
-.botn--#{$boton}{
+.boton--#{$boton}{
     background-color:$color;
-}
+   
 }
 }
