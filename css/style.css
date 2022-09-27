@@ -138,8 +138,8 @@ header {
   animation-direction: alternate; }
 
 .card {
-  -webkit-animation: flip-scale-2-ver-left .5s linear 5s both;
-  animation: flip-scale-2-ver-left .5s linear 5s; }
+  -webkit-animation: scale-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 .tarjeta-1 {
   animation-delay: 2s; }
@@ -150,39 +150,33 @@ header {
 .tarjeta-3 {
   animation-delay: 6s; }
 
-@-webkit-keyframes flip-scale-2-ver-left {
+@-webkit-keyframes scale-in-bottom {
   0% {
-    -webkit-transform: translateX(0) rotateY(0) scale(1);
-    transform: translateX(0) rotateY(0) scale(1);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%; }
-  50% {
-    -webkit-transform: translateX(-50%) rotateY(90deg) scale(2);
-    transform: translateX(-50%) rotateY(90deg) scale(2);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%; }
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1; }
   100% {
-    -webkit-transform: translateX(-100%) rotateY(180deg) scale(1);
-    transform: translateX(-100%) rotateY(180deg) scale(1);
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%; } }
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1; } }
 
-@keyframes flip-scale-2-ver-left {
+@keyframes scale-in-bottom {
   0% {
-    -webkit-transform: translateX(0) rotateY(0) scale(1);
-    transform: translateX(0) rotateY(0) scale(1);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%; }
-  50% {
-    -webkit-transform: translateX(-50%) rotateY(90deg) scale(2);
-    transform: translateX(-50%) rotateY(90deg) scale(2);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%; }
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1; }
   100% {
-    -webkit-transform: translateX(-100%) rotateY(180deg) scale(1);
-    transform: translateX(-100%) rotateY(180deg) scale(1);
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%; } }
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1; } }
 
 /*declaro mi mapa*/
 /*bucle*/
