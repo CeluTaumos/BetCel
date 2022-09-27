@@ -122,7 +122,7 @@ header {
 
 /*INTRO*/
 .intro {
-  background-image: url("./../../assets/imagenes/fondos/cajasfondoedit.jpg");
+  background-image: url(./../../assets/imagenes/fondos/cajasfondoedit.jpg);
   background-position: center center;
   background-size: cover;
   height: 90vh; }
@@ -186,13 +186,13 @@ header {
 
 /*declaro mi mapa*/
 /*bucle*/
-.boton--boton1 {
+.boton--boton--1 {
   background-color: #e676b7; }
 
-.boton--boton2 {
+.boton--boton--2 {
   background-color: #e64da6; }
 
-.boton--boton3 {
+.boton--boton--3 {
   background-color: #f1299e; }
 
 .celulares__intro {
